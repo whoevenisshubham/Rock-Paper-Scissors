@@ -24,7 +24,7 @@ A simple Rock, Paper, Scissors game implemented in JavaScript. The player plays 
 ## 🚀 How to Run
 
 1. Clone the repository:
-   git clone https://github.com/your-username/rock-paper-scissors.git
+   git clone https://github.com/whoevenisshubham/rock-paper-scissors.git
    cd rock-paper-scissors
 Open index.html in your browser.
 
