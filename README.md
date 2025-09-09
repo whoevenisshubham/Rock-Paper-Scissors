@@ -1,43 +1,57 @@
 # Rock Paper Scissors Game 🎮
 
-A simple Rock, Paper, Scissors game implemented in JavaScript. The player plays against the computer for 5 rounds. The winner is determined based on who wins the most rounds.
-
----
+A simple interactive Rock, Paper, Scissors game built with **HTML**, **CSS**, and **JavaScript**.  
+Play against the computer — first to reach **5 points** wins!
 
 ## 🛠️ Technologies Used
 
 - HTML
-- JavaScript
-
----
+- CSS
+- JavaScript (Vanilla)
 
 ## 📦 Features
 
-- Play 5 rounds against the computer
-- Input validation for player choice
-- Random choice generation for the computer
-- Score tracking and winner announcement
-- Console-based interaction using `prompt()` and `console.log()`
-
----
+✅ Play interactively using buttons (no prompt input)  
+✅ Score tracked and displayed in real-time  
+✅ Game ends when either the player or the computer reaches 5 points  
+✅ Visual animations on button clicks  
+✅ Round-by-round result history  
+✅ Reset button to start a new game anytime  
 
 ## 🚀 How to Run
 
-1. Clone the repository:
-   git clone https://github.com/whoevenisshubham/rock-paper-scissors.git
-   cd rock-paper-scissors
-Open index.html in your browser.
+1. **Clone the repository**:
 
-Follow the prompts in the browser and open the Console to see the game output.
+git clone https://github.com/whoevenisshubham/rock-paper-scissors.git
+cd rock-paper-scissors
+
+Open the game:
+
+Open index.html in your preferred browser (double-click or drag into browser).
+
+✅ No setup or installation needed.
 
 📁 File Structure
 rock-paper-scissors/
-├── index.html
-├── script.js
-└── README.md
+├── index.html      # Main HTML file
+├── script.js       # JavaScript game logic
+├── style.css       # Styles and animations
+└── README.md       # Project documentation
+
+🎮 How to Play
+Click on Rock, Paper, or Scissors to make your move.
+
+The computer will choose randomly.
+
+First to reach 5 points wins the game.
+
+Click Reset Game to play again.
 
 🎯 Game Rules
 Rock beats Scissors
+
 Scissors beats Paper
+
 Paper beats Rock
-A tie occurs when both player and computer choose the same item
+
+If both choices are the same, it's a tie
